@@ -1,0 +1,27 @@
+.container {
+  display: table-cell;
+  width: 50%;
+}
+
+.right {
+  background-color: #33adff;
+}
+
+.wrapper {
+  display: table;
+  margin: auto;
+  background-color: #0066ff;
+}
+
+h2,
+h3,
+p {
+  text-align: center;
+}
+
+.content {
+  margin: 20px;
+  text-align: center;
+  background-color: #33ccff;
+  padding: 10px;
+}

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Library.fs" />
+    <Compile Include="TestComponent.fs" />
+  </ItemGroup>
+  <PropertyGroup>
+      <NpmDependencies>
+          <NpmPackage Name="react-draggable" Version="&gt;= 13.1.0 &lt; 14.0.0" ResolutionStrategy="max" />
+      </NpmDependencies>
+  </PropertyGroup>
+  <ItemGroup>
+      <Content Include="*.fsproj; *.fs; *.js;" Exclude="**\*.fs.js" PackagePath="fable\" />
+  </ItemGroup>
+  <Import Project="..\..\.paket\Paket.Restore.targets" />
+</Project>

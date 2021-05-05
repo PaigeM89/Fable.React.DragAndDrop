@@ -1,0 +1,52 @@
+.container {
+  display: table-cell;
+  width: 50%;
+}
+
+.right {
+  background-color: #33adff;
+}
+
+.wrapper {
+  display: table;
+  margin: auto;
+  background-color: #0066ff;
+}
+
+h2,
+h3,
+p {
+  text-align: center;
+}
+
+.content {
+  margin: 20px;
+  text-align: center;
+  background-color: #33ccff;
+  padding: 10px;
+}
+
+/* dragula styles */
+
+.gu-mirror {
+  position: fixed !important;
+  margin: 0 !important;
+  z-index: 9999 !important;
+  opacity: 0.8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+}
+.gu-hide {
+  display: none !important;
+}
+.gu-unselectable {
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+}
+.gu-transit {
+  opacity: 0.2;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+  filter: alpha(opacity=20);
+}

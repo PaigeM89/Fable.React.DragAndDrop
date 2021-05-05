@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "webpack serve"
+  },
+  "name": "Fable.Dragula",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "babel-loader": "^8.2.2",
+    "fable-compiler": "^2.13.0",
+    "fable-loader": "^2.1.9",
+    "react-dragula": "^1.1.17",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
